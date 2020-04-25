@@ -1,0 +1,19 @@
+{
+    // 拡張機能のロード時にターミナルでPython環境をアクティブにする。
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    // 仮想環境のパス。作成した Anaconda仮想環境を指定する。
+    "python.venvPath": "${env:CONDA_ENVS_PATH}/${env:CONDA_ENV_DEFAULT}",
+    // Pythonコマンドのパス。作成した Anaconda仮想環境配下の python.exe を指定する。
+    "python.pythonPath": "${env:CONDA_ENVS_PATH}/${env:CONDA_ENV_DEFAULT}/python.exe",
+    // condaコマンドのパス。[Anacondaインストール先]/condabin/conda.bat を指定する。
+    "python.condaPath": "C:/ProgramData/Anaconda3/condabin/conda.bat",
+    // フォーマッターの設定。autopep8 を指定する。
+    "python.formatting.provider": "autopep8",
+    "python.jediEnabled": false,
+    // Lintの設定。flake8、mypy を有効化する。
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": false,
+    // 以下はお好みで。
+    "python.autoComplete.addBrackets": true,
+}
