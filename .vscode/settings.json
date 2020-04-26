@@ -16,4 +16,7 @@
     "python.linting.pylintEnabled": false,
     // 以下はお好みで。
     "python.autoComplete.addBrackets": true,
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}",
+    },
 }
