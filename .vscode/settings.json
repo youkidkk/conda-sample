@@ -1,12 +1,12 @@
 {
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.venvPath": "${env:CONDA_ENVS_PATH}/${env:CONDA_ENV_DEFAULT}",
-    "python.pythonPath": "${env:CONDA_ENVS_PATH}/${env:CONDA_ENV_DEFAULT}/python.exe",
+    "python.autoComplete.addBrackets": true,
     "python.condaPath": "C:/ProgramData/Anaconda3/condabin/conda.bat",
     "python.formatting.provider": "autopep8",
     "python.jediEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.pylintEnabled": false,
-    "python.autoComplete.addBrackets": true,
+    "python.pythonPath": "${env:CONDA_ENVS_PATH}/${env:CONDA_ENV_DEFAULT}/python.exe",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.venvPath": "${env:CONDA_ENVS_PATH}/${env:CONDA_ENV_DEFAULT}",
 }
