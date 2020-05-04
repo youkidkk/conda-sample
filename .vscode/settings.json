@@ -1,5 +1,8 @@
 {
     "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": [
+        "${env:CONDA_ENVS_PATH}/${env:CONDA_ENV_DEFAULT}/Lib/site-packages",
+    ],
     "python.condaPath": "C:/ProgramData/Anaconda3/condabin/conda.bat",
     "python.formatting.provider": "autopep8",
     "python.jediEnabled": false,
